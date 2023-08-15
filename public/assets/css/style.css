@@ -1,0 +1,16 @@
+/* Buat font responsif menggunakan sistem grid */
+.responsive-font {
+  font-size: 1rem; /* Ukuran font awal */
+}
+
+@media (min-width: 576px) {
+  .responsive-font {
+    font-size: 1.2rem; /* Ukuran font untuk layar lebar dari 576px */
+  }
+}
+
+@media (min-width: 768px) {
+  .responsive-font {
+    font-size: 1.5rem; /* Ukuran font untuk layar lebar dari 768px */
+  }
+}
