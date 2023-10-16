@@ -48,7 +48,7 @@ Hasil Diagnosa
                 <div class="d-flex mx-4 flex-column">
                     <h3 class="responsive-font"><b>Penjelasan:</b><small> Berdasarkan Gejala yang Anda sebutkan, seperti <?php foreach ($gejalas as $gejala) : ?>
                             <?= $gejala['nama_gejala'] ?>,
-                        <?php endforeach; ?> menunjukkan bahwa masalah terletak pada <?= $namaKerusakan ?> komputer.</small></h3>
+                        <?php endforeach; ?> menunjukkan bahwa masalah terletak pada <?= $namaKerusakan ?>.</small></h3>
                 </div>
             </div>
         </div>
